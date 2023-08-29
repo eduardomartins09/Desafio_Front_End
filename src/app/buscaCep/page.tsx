@@ -3,7 +3,7 @@ import SearchCepForm from "@/components/SearchCep/SearchCepForm/SearchCepForm"
 const BuscaCepPage = async () => {
   
   return (
-    <main className='flex justify-center items-center h-[80vh]'>
+    <main className='flex justify-center items-center h-[100vh]'>
       <SearchCepForm />
     </main>
   )

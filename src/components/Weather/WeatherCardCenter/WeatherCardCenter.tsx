@@ -69,7 +69,7 @@ const WeatherCardCenter = () => {
                     </div>
                     <div>
                         <h2 className='text-2xl sm:text-3xl'>{weather.name}</h2>
-                        <div className='flex items-center justify-center gap-6'>
+                        <div className='flex flex-col items-center justify-center gap-1'>
                             <span className='text-xl sm:text-2xl'>{Math.floor(weather.main.temp)}°{units === "metric" ? 'C' : "F"}</span>
                             <div className='flex items-center gap-2'>
                                 <span className='text-sm cursor-pointer' onClick={() => setUnits("metric")}>°C</span>
